@@ -1,4 +1,5 @@
 # ЮНУСОВ ПАВЕЛ ИИАД 1
+
 import sys
 import platform
 
