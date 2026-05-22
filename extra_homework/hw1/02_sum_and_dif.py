@@ -1,3 +1,5 @@
+# ЮНУСОВ ПАВЕЛ ИИАД 1
+
 def sum_of_digits(number):
     k = 0
     for char in str(number):
