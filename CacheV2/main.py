@@ -1,9 +1,9 @@
 # ЮНУСОВ ПАВЕЛ ИИАД 1
 
-import pickle
+import pickle # нужен, чтобы превращать почти любые объекты Python в поток байтов и обратно
 import os
 
-def cache(file_name='cache.txt', key_type='positional'):
+def cache(file_name='cache.txt', key_type='positional'): # фабрика декораторов
     def decorator(func):
         cache_dict = {}
         if os.path.exists(file_name):
